@@ -1,0 +1,76 @@
+.field {
+	 width: 500px;
+	 height: 500px;
+	 background: #f0f0f0;
+	 margin: auto;
+	 margin-top: 30px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 overflow: hidden;
+}
+ .field .cell {
+	 width: 50px;
+	 height: 50px;
+	 padding: 5px;
+}
+ .field .snake-body {
+	 border-radius: 50%;
+	 background: #1589c4;
+	 box-shadow: -5px 1px 15px 1px rgba(0, 0, 0, 1);
+}
+ .field .snake-head {
+	 background: #0a435f;
+	 position: relative;
+	 z-index: 1;
+}
+ .field .snake-head::before {
+	 content: '^_^';
+	 font-weight: bold;
+	 font-size: 17px;
+	 color: #fff;
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 margin: auto;
+	 width: 30px;
+	 height: 20px;
+}
+ .field .snake-head.fatal {
+	 background: #b10000;
+	 transform: scale(1.1);
+}
+ .field .mouse {
+	 border-radius: 50%;
+	 background: #e1b00d;
+	 border: 3px solid #fff;
+	 position: relative;
+}
+ .field .mouse::before {
+	 content: 'O_O';
+	 font-weight: bold;
+	 font-size: 17px;
+	 color: #fff;
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 margin: auto;
+	 width: 30px;
+	 height: 20px;
+}
+ .score {
+	 width: 120px;
+	 margin: auto;
+	 margin-top: 30px;
+	 line-height: 30px;
+	 background: #5b9d6a;
+	 color: #fff;
+	 font-size: 30px;
+	 box-sizing: content-box;
+	 padding: 10px;
+	 border-radius: 15px;
+	 box-shadow: -1px 1px 5px 1px rgba(125, 216, 147, 1);
+}
