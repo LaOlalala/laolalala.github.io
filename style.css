@@ -34,7 +34,7 @@ h1{
  .field .snake-head::before {
 	 content: '^_^';
 	 font-weight: bold;
-	 font-size: 17px;
+	 font-size: 15px;
 	 color: #fff;
 	 position: absolute;
 	 top: 0;
@@ -42,7 +42,7 @@ h1{
 	 left: 0;
 	 right: 0;
 	 margin: auto;
-	 width: 30px;
+	 width: 35px;
 	 height: 20px;
 }
  .field .snake-head.fatal {
@@ -58,7 +58,7 @@ h1{
  .field .mouse::before {
 	 content: 'O_O';
 	 font-weight: bold;
-	 font-size: 17px;
+	 font-size: 15px;
 	 color: #fff;
 	 position: absolute;
 	 top: 0;
@@ -66,7 +66,7 @@ h1{
 	 left: 0;
 	 right: 0;
 	 margin: auto;
-	 width: 30px;
+	 width: 35px;
 	 height: 20px;
 }
  .score {
