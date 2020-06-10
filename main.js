@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 let field = document.createElement('div');
 field.classList.add('field');
 
